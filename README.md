@@ -1,6 +1,6 @@
 # API-based application assessment with Angular 1.x and ASP.NET Web API 
 
-This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use an API to get and update data. Following the steps below, you should clone the repo, do the exercise and push the code to a new repo as your final product.
+This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use a basic API to get and send data updates. Following the steps below, you should clone the repo, do the exercise and push the code to a new repo as your final product.
 
 1. Clone this repository.
 1. Get the skeleton Angular application working.
@@ -11,7 +11,7 @@ This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to 
     1. Run `npm start` to start the UI 
     1. Navigate to http://localhost:8000/
 
-1. In the root of the source code directory, in a folder called `API`, scaffold an ASP.NET Web API project (i.e. with File > New > Project > ASP.NET Web API in Visual Studio).
+1. Open the sln file in hte API/ directory in Visual Studio. 
 1. Create an endpoint that returns the following hard-coded data:
 
     ```
