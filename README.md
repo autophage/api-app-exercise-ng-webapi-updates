@@ -20,6 +20,7 @@
     ```
 1. Create an endpoint that allows updating a Person object, then display a console message with the updated values (no query or database necessary).
 1. Start the Web API application and verify you can hit it. 
-1. In the Angular application, use an endpoint to display both people with all the fields in table format. Use Twitter Bootstrap to make it look presentable.
+1. In the Angular application, on the homepage, use an endpoint to display both people with all the fields in table format. Use Twitter Bootstrap to make it look presentable.
 1. Allow selection of one of the people in the table, and show a form for editing of each of the fields. Allow submission of the edits to the 2nd endpoint. 
 1. Verify the updates made it to the endpoint properly with the console message.  
+1. Submit your final code to a new repo. Share it and walk through how it works from end-to-end.
