@@ -2,7 +2,7 @@
 
 This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use a basic API to get and send data updates. Following the steps below, you should clone the repo, do the exercise and push the code to a new repo as your final product.
 
-1. Clone this repository.
+1. Fork or download the code from this repository.
 1. Get the skeleton Angular application working.
     1. Be sure NPM and Bower are installed
         * Type `npm` at the command-line. If you don't have it, get it here: [NPM](https://www.npmjs.org/)
