@@ -1,4 +1,6 @@
-# API-based Application Assessment with Angular 1.x and ASP.NET Web API 
+# API-based application assessment with Angular 1.x and ASP.NET Web API 
+
+This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use an API to get and update data. Following the steps below, you should clone the repo, do the exercise and push the code to a new repo as your final product.
 
 1. Clone this repository.
 1. Get the skeleton Angular application working.
