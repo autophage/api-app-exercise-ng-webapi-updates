@@ -1,4 +1,4 @@
-# API-based application assessment with Angular 1.x and ASP.NET Web API 
+# API-based application exercise with Angular 1.x and ASP.NET Web API 
 
 This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use a basic API to get and send data updates. Following the steps below, you should use the code as a starting point to do the exercise and push the code to a new repo as your final product.
 
