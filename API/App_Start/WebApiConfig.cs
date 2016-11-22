@@ -17,6 +17,7 @@ namespace TestApi1
             // Configure Web API to use only bearer token authentication.
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+            config.EnableCors();
 
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
 
@@ -26,6 +27,12 @@ namespace TestApi1
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+
+            config.Routes.MapHttpRoute(
+                name: "UpdatePerson",
+                routeTemplate: "api/{controller}/{id}/{FirstName}/{LastName}/{JobTitle}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
